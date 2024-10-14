@@ -76,7 +76,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory("/FIT5032-library/"),
+  history: createWebHistory(process.env.BASE_URL),
   routes
 })
 
